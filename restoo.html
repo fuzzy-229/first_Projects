@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Maf restoo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Restoo Chez Maf</h1>
+        <p>Chez nous la satisfaction de nos clients est notre première priorité</p>
+    </header>
+    <main>
+    <nav>
+        <a href="#infos">A propos</a>
+        <a href="#menu">Menu</a>
+        <a href="#commande">Passer Commande</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    <section title="A propos" id="infos">
+        <h2>A propos</h2>
+        <div class="cont1">
+            <div class="it1">
+                <h3>👨‍🍳Masters chefs</h3>
+                <p>Des chefs talentueux pour vous concocter des plats succulents</p>
+            </div>
+            <div class="it2">
+                <h3>🥗Repas de qualité</h3>
+                <p>Nous utilisons des ingrédients locaux naturels et frais</p>
+            </div>
+            <div class="it3">
+                <h3>🧔🏽‍♂️Un service de qualité</h3>
+                <p>Des diplomés des meilleures écoles d'hotellerie et de restaurations pour un service impéccable</p>
+            </div>
+            <div class="it4">
+                <h3>✈️Commande en ligne</h3>
+                <p>Commande en ligne rapide et sécurisée sur notre site web ou depuis le 0140404040</p>
+            </div>
+            <div class="it5">
+                <h3>🛒24/7 Tracking</h3>
+                <p>Vous pouvez suivre vos commandes en lignes, quelque soit l'heure,de manière très simple</p>
+            </div>
+            <div class="it6">
+                <h3>🎊Prix &amp; Distinctions</h3>
+                <p>Prix Restoo_Bénin<br>Prix Africuisine<br>Prix Assiette pour tous</p>
+            </div>
+        </div>
+    </section><hr>
+    <section id="menu" title="Menu">
+        <h2> Notre Menu</h2>
+        <div class="cont2">
+            <div class="m1">
+            <div class="m">
+                <img src="img\sddefault.jpg" alt="Riz">
+                <figcaption>Jolof rice<br>Prix:7000Fcfa</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\profil.jpg" alt="Charwarma">
+                <figcaption>Charwarma Big_height<br>Prix:2500Fcfa</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\hq720.jpg" alt="poulet">
+                <figcaption>Poulet mayo<br>Prix:5500Fcfa</figcaption>
+            </div>
+            </div>
+            <div class="m2">
+            <div class="m">
+                <img src="img\b7cba4897652fd2861f99f3a61c4c924.jpg" alt="Atcheke">
+                <figcaption>Atcheke poisson<br>Prix:5000Fcfa</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\hq720(0).jpg" alt="Wassa">
+                <figcaption>Wassa-Wassa<br>Prix:3500Fcfa</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\maxresdefault(0).jpg" alt="Alloco">
+                <figcaption>Alloco poisson<br>Prix:3500Fcfa</figcaption>
+            </div>
+            </div>
+            <div class="m3">
+            <div class="m">
+                <img src="img\hq720(1).jpg" alt="Piron">
+                <figcaption>Piron &plus; Dinde</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\maxresdefault(1).jpg" alt="Igname pilée">
+                <figcaption>Igname Pilée<br>Prix:3500Fcfa</figcaption>
+            </div>
+            <div class="m">
+                <img src="img\hq720(2).jpg" alt="Croupion de dinde">
+                <figcaption>Croupion de dinde<br>Prix:4000Fcfa</figcaption>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section title="Commande en ligne" id="commande"><hr>
+        <h2>Formulaire de commande &raquo; <span id="T">Paiement à la livraison</span></h2>
+        <form action="" method="post" name="Commande">
+            <fieldset>
+                <label for="id_nom">Nom&amp;Prenoms:</label><input type="text" name="nom" id="id_nom" placeholder="Entre ton nom" required><br>
+                <label for="id_email">Email:</label><input type="email" name="Email" id="id_email" placeholder="Entrez votre email" required><br>
+                <label for="id_num">Numero a contacter:</label><input type="tel" name="num" id="id_num" placeholder="Entrez le numero a contacter" required><br>
+                <label for="id_address">Adresse de livraison:</label><input type="text" name="address" id="id_address" placeholder="Entrez l'adresse de livraison complete"><br>
+                <label for="id_plat">Plat à commander:</label><input type="text" name="plat" id="id_plat" placeholder="Que souhaiter vous commander" required><br>
+                <label for="pay_mode">Mode de Paiement:</label><select name="pay" id="pay_mode" required><br>
+                                                                                            <optgroup label="Paiement mobile">
+                                                                                               <option value="mtn">MTN Money</option>
+                                                                                               <option value="orange">Orange Money</option>
+                                                                                               <option value="celtis">Celtis Cash</option>
+                                                                                            </optgroup>
+                                                                                            <optgroup label="Paiement via Carte">
+                                                                                                <option value="master">Mastercard</option>
+                                                                                                <option value="Ecobank">Ecobank</option>
+                                                                                                <option value="Visa">Visa</option>
+                                                                                                <option value="CD">Carte de debit</option>
+                                                                                            </optgroup>
+                                                                                            <optgroup label="Paiement en especes">
+                                                                                                <option value="Paiement en especes">Paiement en especes à la livraison</option> 
+                                                                                            </optgroup>
+                </select><br>
+                <span id="H"><label  for="id_hour">Heure de livraison:</label></span><input type="time" placeholder="Heure de livraison" id="id_hour" name="heure"required><br>
+                <label for="id_com">Instructions spéciales:</label><input type="text" name="com" placeholder="Commentaires ou instructions spéciales" id="id_com">
+            </fieldset><br>
+            <input type="submit" value="Validez la commande">
+        </form>
+    </section>
+    <address title="Contact" id="contacts">
+        <h2>Contacts</h2>
+        <p>
+        Addresse:Cotonou,Bénin<br>
+        <a href="@mailto:maf_restoo@gmail.com">Email:Restoo_chez_maf@gmail.com</a><br>
+        Numero:+229 0140404040
+        </p>
+    </address>
+    </main>
+    <footer>
+        © Restoo Chez Maf.Tout droits réservés.
+    </footer>
+</body>
+</html>
